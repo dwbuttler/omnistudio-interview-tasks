@@ -1,0 +1,6 @@
+projectPath: ./datapacks 
+queries:
+  - OmniScript
+  - IntegrationProcedure
+  - DataRaptor
+  - FlexCard
