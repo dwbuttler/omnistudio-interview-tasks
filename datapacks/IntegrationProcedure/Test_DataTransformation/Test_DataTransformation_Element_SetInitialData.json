@@ -1,0 +1,57 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetInitialData",
+    "OmniProcessId": {
+        "Name": "TestDataTransformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Test/DataTransformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "DataToAdd": [
+                {
+                    "AccountId": "abcd123",
+                    "conId": "98765"
+                },
+                {
+                    "AccountId": "efgh456",
+                    "conId": "12345"
+                },
+                {
+                    "AccountId": "zyxw789",
+                    "conId": "54321"
+                }
+            ],
+            "InitialData": [
+                {
+                    "ContactId": "12345",
+                    "Name": "Test1"
+                },
+                {
+                    "ContactId": "54321",
+                    "Name": "Test2"
+                },
+                {
+                    "ContactId": "98765",
+                    "Name": "Test3"
+                }
+            ]
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Test/DataTransformation/Procedure/SetInitialData"
+}

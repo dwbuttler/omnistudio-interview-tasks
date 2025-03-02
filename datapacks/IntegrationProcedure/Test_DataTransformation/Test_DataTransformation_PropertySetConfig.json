@@ -1,5 +1,18 @@
 {
-    "alreadyExportedKeys": [],
+    "additionalChainableResponse": {
+    },
+    "alreadyExportedKeys": [
+    ],
+    "chainableActualTimeLimit": null,
+    "chainableCpuLimit": 2000,
+    "chainableDMLRowsLimit": null,
+    "chainableDMLStatementsLimit": null,
+    "chainableHeapSizeLimit": null,
+    "chainableQueriesLimit": 50,
+    "chainableQueryRowsLimit": null,
+    "chainableSoslQueriesLimit": null,
+    "columnsPropertyMap": [
+    ],
     "dataPackId": "a3iHu000009eqqcIAA",
     "dataPacks": [
         {
@@ -7,7 +20,8 @@
             "DataPackAttachmentId": "00PHu00002YKj0aMAD",
             "DataPackAttachmentParentId": "a3iHu000009eqqcIAA",
             "DataPackAttachmentSize": 4540,
-            "VlocityDataPackAllRelationships": {},
+            "VlocityDataPackAllRelationships": {
+            },
             "VlocityDataPackData": {
                 "%vlocity_namespace%__OmniScript__c": [
                     {
@@ -15,6 +29,7 @@
                         "%vlocity_namespace%__CustomJavaScript__c": "{}",
                         "%vlocity_namespace%__DataRaptorBundleId__c": "",
                         "%vlocity_namespace%__DisableMetadataCache__c": false,
+                        "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
                         "%vlocity_namespace%__Element__c": [
                             {
                                 "%vlocity_namespace%__Active__c": true,
@@ -41,7 +56,6 @@
                                 "VlocityRecordSourceKey": "VlocityRecordSourceKey:a1OHu00000Fh43mMAB"
                             }
                         ],
-                        "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
                         "%vlocity_namespace%__IsActive__c": false,
                         "%vlocity_namespace%__IsLwcEnabled__c": false,
                         "%vlocity_namespace%__IsProcedure__c": true,
@@ -83,8 +97,10 @@
             "VlocityDataPackLabel": "Integration Procedure",
             "VlocityDataPackMessage": null,
             "VlocityDataPackName": "TestDataTransformation",
-            "VlocityDataPackParents": [],
-            "VlocityDataPackRecords": [],
+            "VlocityDataPackParents": [
+            ],
+            "VlocityDataPackRecords": [
+            ],
             "VlocityDataPackRelationshipType": "Primary",
             "VlocityDataPackStatus": "Success",
             "VlocityDataPackType": "IntegrationProcedure",
@@ -98,13 +114,29 @@
     "forceOldDataModel": null,
     "forceQueueable": false,
     "ignoreAllErrors": false,
+    "includeAllActionsInResponse": false,
     "isChunked": false,
+    "labelPlural": "",
+    "labelSingular": "",
+    "linkToExternalObject": "",
     "maxDepth": -1,
+    "mockResponseMap": {
+    },
     "name": "TestDataTransformation",
+    "nameColumn": "",
     "primaryDataPackKey": "3c3de1d31dd77906efbee8a7d0461ac4",
     "primaryDataPackType": "Integration Procedure",
     "processMultiple": true,
+    "queueableChainableCpuLimit": 40000,
+    "queueableChainableHeapSizeLimit": 6,
+    "queueableChainableQueriesLimit": 120,
+    "relationshipFieldsMap": [
+    ],
+    "rollbackOnError": false,
     "status": "Complete",
+    "trackingCustomData": {
+    },
+    "ttlMinutes": 5,
     "useVlocityTriggers": true,
     "version": 1
 }

@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "Test candidate knowledge of data transformation.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TestDataTransformation",
+    "OmniProcessElement": "Test_DataTransformation_Element_SetInitialData.json",
+    "OmniProcessKey": "Test_DataTransformation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Test_DataTransformation_PropertySetConfig.json",
+    "SubType": "DataTransformation",
+    "Type": "Test",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Test/DataTransformation/Procedure"
+}
