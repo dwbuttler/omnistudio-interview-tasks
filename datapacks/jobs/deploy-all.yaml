@@ -1,4 +1,4 @@
-projectPath: ./datapacks 
+projectPath: datapacks 
 queries:
   - OmniScript
   - IntegrationProcedure

@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@salesforce/cli": "2.78.3",
+    "vlocity": "1.17.12"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@salesforce/cli"
+    ]
+  }
 }
