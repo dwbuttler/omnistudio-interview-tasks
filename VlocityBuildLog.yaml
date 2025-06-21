@@ -1,0 +1,28 @@
+Org: omnistudioplayground
+Version: 1.17.12
+Node: v22.14.0
+PackageVersion: !<tag:yaml.org,2002:js/undefined> ''
+Namespace: omnistudio
+Job: VDX
+Action: Export
+ProjectPath: datapacks
+TotalTime: 0m 6s
+Count:
+  Success:
+    IntegrationProcedure: 1
+    DataRaptor: 1
+    OmniScript: 1
+Errors: []
+Status:
+  Success:
+    IntegrationProcedure:
+      - Test_DataTransformation
+    DataRaptor:
+      - DRTurboGetAccounts
+    OmniScript:
+      - Test_TypeAhead_English
+StatusCount:
+  Remaining: 0
+  Success: 4
+  Error: 0
+id: !<tag:yaml.org,2002:js/undefined> ''

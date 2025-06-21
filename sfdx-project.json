@@ -1,4 +1,10 @@
 {
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
   "name": "omnistudiointerviewtasks",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
